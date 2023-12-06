@@ -1,0 +1,55 @@
+body {
+    font-family: "Helvetica-Neueu", sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+.nav {
+    background-color: #333;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 80px;
+}
+
+.left-nav {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    background-color: red;
+    width: fit-content;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0.2em;
+}
+
+
+ul {
+    height: fit-content;
+    padding-left: 2em;
+
+    display: flex;
+    list-style-type: none;
+    gap: 2em;
+
+    color: white;
+}
+
+li {
+    height: fit-content;
+}
+
+.hero-image {
+    position: relative;
+    z-index: -1;
+}
